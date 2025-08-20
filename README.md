@@ -15,7 +15,9 @@ pip install -r requirements.txt
 ```
 
 ## Start
+```bash
 python app.py  # http://127.0.0.1:5000
+```
 
 ## Demo
 ```bash
@@ -30,9 +32,9 @@ pytest -q
   ```
 
 ## Messenger
-Für das Weiterleiten der Benachrichtigungen wird **ntfy** verwendet:  
-ntfy: https://ntfy.sonrio.eu -> Topic: stackit-challenge (https://ntfy.sonrio.eu/stackit-challenge)
+Für das Weiterleiten der Benachrichtigungen wird **ntfy** verwendet.  
 Der ntfy-Server läuft separat auf meinem privaten VPS in einem Docker-Container.  
+Ein eigenes Topic wurde für die Challenge eingerichtet.
 
 ## Screenshots
 
