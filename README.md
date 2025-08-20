@@ -1,6 +1,6 @@
 # STACKIT Coding-Challenge – REST API
 
-Minimaler REST-Service:
+Minimale REST API:
 - `POST /notifications` nimmt JSON entgegen
 - **Warning** → via ntfy weitergeleitet
 - **Info** → nicht weitergeleitet
