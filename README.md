@@ -21,13 +21,20 @@ curl -X POST http://127.0.0.1:5000/notifications \
   -d '{"Type":"Warning","Name":"Backup Failure","Description":"DB issue"}'
 
 ## Tests
-pytest -q  # erwartet: 5 passed
+pytest -q  
 
 ## Messenger
-ntfy: https://ntfy.sonrio.eu • Topic: stackit-challenge-sonrio
+Für das Weiterleiten der Benachrichtigungen wird **ntfy** verwendet:  
+ntfy: https://ntfy.sonrio.eu -> Topic: stackit-challenge (https://ntfy.sonrio.eu/stackit-challenge)
+Der ntfy-Server läuft separat auf meinem privaten VPS in einem Docker-Container.  
 
 ## Screenshots
-![Warning](./screenshots/ntfy_warning.png)
-![Pytest](./screenshots/pytest_green.png)
 
-> Produktiv-Verbesserungen sind **nur als Kommentare** im Code notiert.
+### Warning im ntfy-Topic
+![Warning](./screenshots/ntfy.png)
+
+### Erfolgreiche Tests mit pytest
+![Pytest](./screenshots/pytest.png)
+
+### cURL-Requests (forwarded / ignored)
+![cURL](./screenshots/curl.png)

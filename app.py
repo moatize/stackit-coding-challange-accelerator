@@ -74,7 +74,7 @@ def receive_notification():
 
 
 if __name__ == "__main__":
-    # Minimaler Dev-Server start
+    # Minimaler Dev-Server start (kein WSGI/Proxy, da nicht gefordert)
     app.run(host="127.0.0.1", port=5000, debug=False)
 
 
