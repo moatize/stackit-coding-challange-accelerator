@@ -36,5 +36,5 @@ Der ntfy-Server läuft separat auf meinem privaten VPS in einem Docker-Container
 ### Erfolgreiche Tests mit pytest
 ![Pytest](./screenshots/pytest.png)
 
-### cURL-Requests (forwarded / ignored)
+### curl-Requests (forwarded / ignored)
 ![cURL](./screenshots/curl.png)
