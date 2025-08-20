@@ -4,9 +4,9 @@ import requests
 from typing import Any, Dict, List
 
 # Konfiguration Messenger
-NTFY_BASE_URL = "https://ntfy.sonrio.eu"
+NTFY_BASE_URL = "https://ntfy.DOMAIN.eu"
 NTFY_TOPIC = "stackit-challenge"
-NTFY_URL = f"https://ntfy.sonrio.eu/stackit-challenge"
+NTFY_URL = f"https://ntfy.DOMAIN.eu/stackit-challenge"
 
 # In-Memory-Speicher
 NOTIFICATIONS: List[Dict[str, Any]] = []
