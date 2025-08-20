@@ -12,18 +12,22 @@ Minimaler REST-Service:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-```
+
 
 ## Start
 python app.py  # http://127.0.0.1:5000
 
 ## Demo
+```bash
 curl -X POST http://127.0.0.1:5000/notifications \
   -H "Content-Type: application/json" \
   -d '{"Type":"Warning","Name":"Backup Failure","Description":"DB issue"}'
+  ```
 
 ## Tests
+```bash
 pytest -q  
+  ```
 
 ## Messenger
 Für das Weiterleiten der Benachrichtigungen wird **ntfy** verwendet:  
