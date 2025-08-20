@@ -1,4 +1,4 @@
-# STACKIT Coding-Challenge – REST-Service (Flask)
+# STACKIT Coding-Challenge – REST API
 
 Minimaler REST-Service:
 - `POST /notifications` nimmt JSON entgegen
